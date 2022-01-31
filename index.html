@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>newsly</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="section-center header-center">
+            <nav class="nav-bar">
+                <div class="nav-logo">
+                    <a href="" class="nav-logo-link">
+                        <img src="https://previews.123rf.com/images/wannen19/wannen191809/wannen19180900002/108328455-football-logo-designs.jpg" alt="nav-logo" />
+                    </a>
+                </div>
+                <div class="nav-toggle">
+                    <button class="nav-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+                </div>
+            </nav>
+            <ul class="nav-links">
+                <li class="nav-link a">Home</li>
+                <li class="nav-link">
+                    <!-- <label for="">Countries</label> -->
+                    <select name="select-countries" id="select-countries">
+                <option value="us">USA</option>
+                <option value="gb">Britain</option>
+                <option value="de">Germany</option>
+                <option value="ar">Argentina</option>
+                <option value="fr">France</option>
+                <option value="se">Sweden</option>
+                <option value="ch">Switzerland</option>
+                </select>
+                    <button class="btn nav-btn-1">submit</button>
+                </li>
+        </div>
+        <aside class="aside">
+            <button class="close-btn"><i class="far fa-times-circle"></i></button>
+            <div class="aside-center">
+                <ul class="nav-ul">
+                    <li class="nav-link">Home</li>
+                    <li class="nav-link">Category</li>
+                    <li class="nav-link">Country </li>
+                </ul>
+            </div>
+        </aside>
+    </header>
+    <!-- main -->
+    <main class="hero">
+        <div class=" slides-container" id="slide-container">
+            <div class="slides show">
+                <img src="./images/hero-slider-1.jpeg" alt="hero-img" />
+            </div>
+            <div class="slides">
+                <img src="./images/hero-slider-2.jpeg" alt="" />
+            </div>
+            <div class="slides">
+                <img src="./images/hero-slider-3.jpeg" alt="" />
+            </div>
+            <div class="slides">
+                <img src="./images/hero-slider-4.jpeg" alt="" />
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev">&#10094;</a>
+            <a class="next">&#10095;</a>
+
+        </div>
+        <div class="hero-center section-center">
+            <h2 class="hero-title">Latest News around </h2>
+            <p class="hero-text">
+                <span class="first">business</span>
+                <span class="second">entertainment</span>
+                <br>
+                <span class="third">general</span>
+                <span class="fourth">science</span>
+                <br>
+                <span class="fifth">sports </span>
+                <span class="sixth">health </span>
+                <br>
+                <span class="seventh">& technology</span>
+                <span></span> <br> ....</p>
+        </div>
+
+    </main>
+    <div class="separator"></div>
+    <section class="stories-section">
+        <h2 class="block-title">Latest News</h2>
+        <form action="" class="form">
+            <div class="inputs">
+                <div class="city">
+                    <label for="city">Country</label>
+                    <input type="text" id="city" required class="input">
+                </div>
+                <div class="category">
+                    <label for="category">Category</label>
+                    <input type="text" for="category" id="category" class="input">
+                </div>
+            </div>
+
+            <div class="form-btn">
+                <button class="btn-search btn">Submit</button>
+            </div>
+        </form>
+
+        <div class="section-center news-center">
+            <p>Your news are waiting</p>
+
+        </div>
+    </section>
+
+    <section class="archives-section">
+        <form action="">
+            <h4>Regsiter for our daily news letter</h4>
+            <div>
+                <input type="email" required placeholder="email@email.com" />
+                <button class="btn letter-btn">Submit</button>
+            </div>
+
+        </form>
+    </section>
+    <footer class="footer-section">
+        <div class="footer-center section-center">
+            copyright &copy; Ayodeji Adio <span class="year">2022</span>
+        </div>
+    </footer>
+    <script src="./app.js" type="module"></script>
+</body>
+</body>
+
+</html>

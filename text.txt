@@ -1,0 +1,33 @@
+<!-- <article class="sport-card">
+                <h4 class="sport-card-title">Football</h4>
+                <img src="./media/images/football.jpeg" alt="" class="sport-img img" />
+                <p class="sport-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni reiciendis harum eius atque vero consequuntur!
+                </p>
+                <button class="btn sport-btn">More news</button>
+            </article>
+            <article class="sport-card">
+                <h4 class="sport-card-title">basketball</h4>
+                <img src="./media/images/basketball.jpeg" alt="" class="sport-img img" />
+                <p class="sport-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni reiciendis harum eius atque vero consequuntur!
+                </p>
+                <button class="btn sport-btn">More news</button>
+            </article>
+            <article class="sport-card">
+                <h4 class="sport-card-title">Tennis</h4>
+                <img src="./media/images/tennis.jpeg" alt="" class="sport-img img" />
+                <p class="sport-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni reiciendis harum eius atque vero consequuntur!
+                </p>
+                <button class="btn sport-btn">More news</button>
+            </article>
+            <article class="sport-card">
+                <h4 class="sport-card-title">Football News</h4>
+                <img src="https://images.unsplash.com/photo-1527871369852-eb58cb2b54e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80" alt="" class="sport-img img" />
+                <p class="sport-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni reiciendis harum eius atque vero consequuntur!
+                </p>
+                <button class="btn sport-btn">
+          <a href="">more</a>
+        </button> -->
